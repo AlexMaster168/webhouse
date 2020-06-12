@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/webhome_.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>WebHome</title>
+</head>
+<body>
+<header id="top">
+    <div class="logo">
+        <img src="img/webhome_.png" alt="webhome">
+    </div>
+    <nav class="nav">
+        <a href="#" class="link" id="main_link">Главная</a>
+        <a href="#" class="link">Портфолио</a>
+        <a href="#" class="link">Цены</a>
+        <a href="#" class="link">Оформить</a>
+    </nav>
+    <div class="text">
+        <img src="img/__МЫ%20НАПИШЕМ%20ВАШ%20САЙТ%20%20ДО%20ПОСЛЕДНЕГО%20ТЕГА_.png" alt="Мы напишем">
+    </div>
+    <div class="why-we">
+        <a href="#personal__qualities">
+            <button>Почему мы?</button>
+        </a>
+    </div>
+</header>
+<div id="personal__qualities">
+    <div class="fast">
+        <h2>Быстро</h2>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
+            auctor sapien.</p>
+    </div>
+    <div class="exactly">
+        <h2>Точно</h2>
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
+            auctor sapien.</p>
+    </div>
+    <div class="flex">
+        <div class="cheap">
+            <h2>Недорого</h2>
+            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
+                auctor sapien.</p>
+        </div>
+        <div class="adaptive">
+            <h2>Адаптивно</h2>
+            <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
+                auctor sapien.</p>
+        </div>
+    </div>
+    <div class="order">
+        <a href="#">
+            <button>Заказать</button>
+        </a>
+    </div>
+
+</div>
+<div class="top">
+    <a href="#top"><img src="img/top.png" alt="top"></a>
+</div>
+
+<!--<script type="text/javascript" src="jquery-3.4.1.min.js"></script>-->
+<!--<script type="text/javascript" src="jquery.pixlayout.0.9.8.js"></script>-->
+<!--<script type="text/javascript">-->
+<!--    $(function(){-->
+<!--        $.pixlayout({clip: true, src: "site.png", show:true, center:true, top:0, left:0, pervious: false});-->
+<!--    });-->
+<!--</script>-->
+<script>
+    $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+            $('.top').fadeIn();
+        } else {
+            $('.top').fadeOut();
+        }
+    });
+</script>
+</body>
+</html>
