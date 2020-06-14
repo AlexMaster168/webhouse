@@ -6,6 +6,7 @@
           content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="animate.css/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>WebHome</title>
 </head>
@@ -31,7 +32,7 @@
     </div>
     <div class="why-we">
         <a href="#personal__qualities">
-            <button>Почему мы?</button>
+            <button class="animated fadeInDown infinite">Почему мы?</button>
         </a>
     </div>
 </header>
@@ -66,7 +67,7 @@
     </div>
     <div class="order">
         <a href="#">
-            <button>Заказать</button>
+            <button class="animated flash infinite">Заказать</button>
         </a>
     </div>
     <div id="price">
@@ -99,14 +100,6 @@
 <!--        $.pixlayout({clip: true, src: "site.png", show:true, center:true, top:0, left:0, pervious: false});-->
 <!--    });-->
 <!--</script>-->
-<script>
-    $(window).scroll(function () {
-        if ($(this).scrollTop()) {
-            $('.top').fadeIn();
-        } else {
-            $('.top').fadeOut();
-        }
-    });
-</script>
+<script src="script.js"></script>
 </body>
 </html>
