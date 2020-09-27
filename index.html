@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="animate/animate.min.css">
+    <link rel="stylesheet" href="animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/wow.min.js"></script>
+    <script>
+        wow = new WOW()
+        wow.init();
+    </script>
     <title>WebHome</title>
 </head>
 <body>
@@ -32,17 +37,17 @@
     </div>
     <div class="why-we">
         <a href="#personal__qualities">
-            <button class="animated fadeInDown infinite">Почему мы?</button>
+            <button class="wow bounceInUp">Почему мы?</button>
         </a>
     </div>
 </header>
 <div id="personal__qualities">
-    <div class="fast">
+    <div class="fast wow zoomInUp ">
         <h2>Быстро</h2>
         <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
             auctor sapien.</p>
     </div>
-    <div class="exactly">
+    <div class="exactly wow zoomInUp ">
         <h2>Точно</h2>
         <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
             auctor sapien.</p>
@@ -54,12 +59,12 @@
             <a href="#price"><img src="img/Ellipse%202.png" alt="Ellipse3"></a>
             <a href="#our-works"><img src="img/Ellipse%202.png" alt="Ellipse4"></a>
         </div>
-        <div class="cheap">
+        <div class="cheap wow zoomInUp ">
             <h2>Недорого</h2>
             <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
                 auctor sapien.</p>
         </div>
-        <div class="adaptive">
+        <div class="adaptive wow zoomInUp ">
             <h2>Адаптивно</h2>
             <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.<br>Etiam eros sapien, ultiricies.<br>fringilla
                 auctor sapien.</p>
@@ -72,13 +77,13 @@
     </div>
     <div id="price">
         <h2 id="price-prices">Цены</h2>
-        <div class="startup">
+        <div class="wow zoomInUp startup">
             <img id="startup-img" src="img/startup.png" alt="startup">
         </div>
-        <div class="bisnes">
+        <div class="wow zoomInUp bisnes">
             <img id="bisnes-img" src="img/bisnes.png" alt="bisnes">
         </div>
-        <div class="shop">
+        <div class="wow zoomInUp shop">
             <img id="shop-img" src="img/shop.png" alt="shop">
         </div>
         <div class="price-price">
@@ -99,7 +104,7 @@
             <a href="#price"><img src="img/Ellipse%202.png" alt="Ellipse3"></a>
             <a href="#our-works"><img src="img/Ellipse%201.png" alt="Ellipse4"></a>
         </div>
-        <div class="block">
+        <div class="block wow zoomInUp">
             <img src="img/Rectangle%2014.png" alt="Rectangle 14">
             <img src="img/Rectangle%2014.png" alt="Rectangle 14">
             <img src="img/Rectangle%2014.png" alt="Rectangle 14">
@@ -108,7 +113,7 @@
         <button id="more">Больше</button>
         </div>
     </div>
-    <div class="top">
+    <div class="top wow zoomInUp">
         <a href="#top"><img src="img/top.png" alt="top"></a>
     </div>
 </div>
@@ -120,6 +125,6 @@
 <!--        $.pixlayout({clip: true, src: "site.png", show:true, center:true, top:0, left:0, pervious: false});-->
 <!--    });-->
 <!--</script>-->
-<script src="JS/script.min.js"></script>
+<script src="JS/script.js"></script>
 </body>
 </html>

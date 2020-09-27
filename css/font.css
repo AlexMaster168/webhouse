@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url("../fonts/Montserrat-ExtraBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("../fonts/Montserrat-Black.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url("../fonts/Montserrat-MediumItalic.ttf") format('truetype');
+}
+
